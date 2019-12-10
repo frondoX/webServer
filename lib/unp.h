@@ -189,3 +189,7 @@ struct timespec{
 #endif
 #endif
 
+
+ssize_t readn(int filedes, void *buff, size_t nbytes);
+ssize_t written(int fileds, const void *buff, size_t nbytes);
+ssize_t readline(int filedes, void *buff, size_t maxlen);
